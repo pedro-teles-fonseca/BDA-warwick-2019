@@ -1,6 +1,6 @@
 # "Bayesian Digit Analysis" - O'Bayes 2019 - University of Warwick
 
-This goal of this repository is to share the data and the code that were used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow for the reproducibility of obtained results.
+This goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow for the reproducibility of obtained results. Some supplemental graphs and tables are also provided.  
 
 ## Instructions
 
