@@ -18,17 +18,19 @@ The *Hmisc* package is used to export tables in TeX format and the *tidyverse* p
 
 ### Data
 
-The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder.
+The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder. $p_1$
 
 ### R Scripts and Reproducibility
 
-We provide a self-contained R studio project. For a smooth replicability of the poster's results, the *bda-poster-warwick.Rproj* file should be run beforehand. 
+* We provide a self-contained R studio project. For a smooth replicability of the poster's results, the *bda-poster-warwick.Rproj* file should be run beforehand. 
 
-The *read-data.R*, *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* files are auxilliary scripts that are called within other scripts to import the data and to and provide funcions that we developed. The results in the poster can be reproduced by running the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
-
+* The *read-data.R*, *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* files are auxilliary scripts that are called within other scripts to import the data and to and provide funcions that we developed. The results in the poster can be reproduced by running the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
 
 ### Supplementary Materials
 
+* Plots comparing observed vs expected digit frequencies are provided in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
+
+* A *pdf* with the tables from the poster rounded up to five digits (instead of three) can be be found in the *aux-tables.pdf* in the *aux-tables* folder. These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
 
 ## Built With
 
