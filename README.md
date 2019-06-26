@@ -21,9 +21,14 @@ The raw data can be found in the *raw-data.xls* file, stored in the *data* folde
 
 ### R Scripts and Reproducibility
 
-* We provide a self-contained R studio project. For a smooth replicability of the poster's results, the *bda-poster-warwick.Rproj* file should be run beforehand. 
+Using an Rstudio project, we provide a self-contained enviroment to reproduce all the results in the poster. In order to point R to the correct working directory, the *bda-poster-warwick.Rproj* file should be run beforehand. After that, all other R scripts should run smoothly.
 
-* The *read-data.R*, *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* files are auxilliary scripts that are called within other scripts to import the data and to and provide funcions that we developed. The results in the poster can be reproduced by running the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
+* The *read-data.R file is an auxilliary script that is called within other scripts to import the data. 
+
+* The *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* files are auxilliary scripts that
+contain functions that we developed specifically for Bayesian digit analysis. These scripts are called within other scripts if necessairy. 
+
+* The results in the poster can be reproduced with the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
 
 ### Supplementary Materials
 
