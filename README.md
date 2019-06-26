@@ -21,14 +21,13 @@ These instructions will get you a copy of the project up and running on your loc
 ## Built With
 
 * [R](https://www.r-project.org) - Free software environment for statistical computing and graphics.
-* [R Studio](https://www.rstudio.com) - Free and open-source integrated development environment (IDE) for R
-* [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system
-* [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform open-source LaTeX editor
+* [R Studio](https://www.rstudio.com) - Free and open-source IDE for R.
+* [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system.
+* [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform and open-source LaTeX editor.
 
 ## Authors and Contributors
 
-* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - <i class="fab fa-github"></i>
-:[pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) 
+* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) 
 
 * **Advisor: Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
@@ -41,7 +40,7 @@ We would like to thank to the following institutions for the finantial support t
 
 ## Contact
 
-For additional information contact pedro.teles.fonseca@outlook.com
+pedro.teles.fonseca@outlook.com
 
 
 
