@@ -11,8 +11,8 @@ To run all the R scripts provided in this reposirory and obtain the desired outp
 ```
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
-
 ```
+
 The *Hmisc* package is necessairy to export R tables in TeX format, and the *tidyverse* package is only used in the *plots.R* script to produce graphs. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R package.
 
 ### Data
