@@ -1,6 +1,6 @@
 # "Bayesian Digit Analysis" - O'Bayes 2019 
 
-This repository accompanies the "Bayesian Digit Analysis" [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), to be presented in the O'Bayes 2019 conference, taking place in the University of Warwick. Here we share the data and the code used to develop the poster, allowing the replicability of obtained results. Some supplemental materials are also provided.  
+This repository accompanies the "Bayesian Digit Analysis" [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), to be presented in the O'Bayes 2019 conference, taking place in the University of Warwick. Here we share the data and the code used to develop the poster, allowing the replicability of obtained results. Some supplementary materials are also provided.  
 
 ## Instructions
 
@@ -12,7 +12,7 @@ To run all the R scripts provided in this reposirory and obtain the desired outp
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-Nevertheless, it is possible to reproduce all the results in the poster with the R console using only the base R package, since the *Hmisc* package is used only to export R tables in TeX format and the *tidyverse* package is only used in the *plots.R* script to produce graphs, which are supplemantal material. 
+Nevertheless, it is possible to reproduce all the results in the poster with the R console using only the base R package, since the *Hmisc* package is used only to export R tables in TeX format and the *tidyverse* package is only used in the *plots.R* script to produce graphs, which are supplementary material. 
 
 ### Data
 
@@ -35,7 +35,7 @@ contain functions that we developed specifically for Bayesian digit analysis. Th
 
 * Plots comparing observed vs expected digit frequencies can be found in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
 
-* The *aux-tables.pdf* file in the *aux-tables* folder is a contains the tables from the poster but with higher precision (numbers rounded up to five decimal places instead of three). These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
+* Tables similar to the ones in the poster but with five decimal places instead of three can be found in the *aux-tables.pdf* file in the *aux-tables* folder. These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
 
 ## Built With
 
