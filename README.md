@@ -29,7 +29,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * **Pedro Fonseca** - *PhD candidate and research fellow ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/))* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
 
-* **Prof Rui Paulo** - * Associate professor ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/))* - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
+* **Rui Paulo** - *Associate professor ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/))* - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
