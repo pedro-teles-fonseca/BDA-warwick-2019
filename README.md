@@ -27,9 +27,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors and Contributors
 
-* **Pedro Fonseca** - *PhD candidate and research fellow - [ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
+* **Pedro Fonseca** - *PhD candidate and research fellow ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/))* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
 
-* **Prof Rui Paulo** - *[ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)and [CEMAPRE](https://cemapre.iseg.ulisboa.pt) * - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
+* **Prof Rui Paulo** - * Associate professor ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/))* - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
