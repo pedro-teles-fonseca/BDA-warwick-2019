@@ -12,6 +12,7 @@ install.packages("tidyverse", dependencies = TRUE)
 ```
 
 The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs.
+
 ## Instructions
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -26,12 +27,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors and Contributors
 
-* **Pedro Fonseca** - *PhD candidate and research fellow at [ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
-* **Prof Rui Paulo (Advisor)** - *[ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt) * - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
+* **Pedro Fonseca** - *PhD candidate and research fellow - [ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
+
+* **Prof Rui Paulo** - *[ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)and [CEMAPRE](https://cemapre.iseg.ulisboa.pt) * - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
-We would like to thank the financial support provided by:
+We would like to thank to the following institutions for the finantial support they provided:
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017
