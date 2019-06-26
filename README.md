@@ -1,6 +1,6 @@
 # Bayesian Digit Analysis - O'Bayes 2019 
 
-This repository accompanies the "Bayesian Digit Analysis" [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), to be presented in the O'Bayes 2019 conference, taking place in the University of Warwick. Here we share the data and the code used to develop the poster, allowing the replicability of obtained results. Some supplementary materials are also provided.  
+This repository accompanies the "Bayesian Digit Analysis" [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), to be presented in the O'Bayes 2019 conference taking place in the University of Warwick (UK). Here we share the data and the code used to develop the poster, allowing the replicability of obtained results. Some supplementary materials are also provided.  
 
 ## Instructions
 
@@ -16,7 +16,7 @@ Nevertheless, it is possible to reproduce all the results in the poster with the
 
 ### Data
 
-The raw data can be found in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is the *data.txt* file, stored in the same folder. 
+The raw data can be found in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is imported by the R scripts is the *data.txt* file, stored in the same folder. 
 
 ### Reproducibility
 
@@ -33,9 +33,9 @@ contain functions that we developed specifically for Bayesian digit analysis. Th
 
 ### Supplementary Materials
 
-* Plots comparing observed vs expected digit frequencies can be found in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
+* Plots comparing observed versus expected digit frequencies can be found in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
 
-* Tables similar to the ones in the poster but with five decimal places instead of three can be found in the *aux-tables.pdf* file in the *aux-tables* folder. These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
+* Tables similar to the ones in the poster but with five decimal places instead of three can be found in the *aux-tables.pdf* file, stored in the *aux-tables* folder. These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
 
 ## Built With
 
@@ -52,10 +52,12 @@ contain functions that we developed specifically for Bayesian digit analysis. Th
 
 ## Acknowledgments
 
-We would like to thank to the following institutions for the finantial support they provided:
+This project was partially funded by:
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national MCTES funds)
+
+We would like the aforementioned institutions for the finantial support they provided.
 
 ## Contact
 
