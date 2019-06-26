@@ -18,7 +18,7 @@ The *Hmisc* package is used to export tables in TeX format and the *tidyverse* p
 
 ### Data
 
-The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder. $p_1$
+The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder. 
 
 ### R Scripts and Reproducibility
 
