@@ -11,11 +11,17 @@ install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
 
-The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs.
+The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs. 
 
 ## Instructions
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Data
+
+The raw data is in the *raw-data.xls* file, stored in the *data* folder. The data that is read by the R scripts is stored in the *data.txt* file in the same folder.
+
+### Scripts
+
+We provide a self-contained R studio project. For a smooth replicability of the poster's results, the *bda-poster-warwick.Rproj* file should be run beforehand. 
 
 
 ## Built With
