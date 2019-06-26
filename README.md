@@ -2,8 +2,6 @@
 
 The goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow the replicability of obtained results. Some supplemental graphs and tables are also provided.  
 
-The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs. 
-
 ## Instructions
 
 ### Prerequisites
@@ -13,12 +11,13 @@ To run all the R scripts provided in this reposirory and obtain the desired outp
 ```
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
+
 ```
-The *Hmisc* package is used to export tables in TeX format and the *tidyverse* package is used to to produce graphs. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R packages.
+The *Hmisc* package is necessairy to export R tables in TeX format, and the *tidyverse* package is only used in the *plots.R* script to produce graphs. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R package.
 
 ### Data
 
-The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder. 
+The raw data can be found in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is the *data.txt* file, stored in the same folder. 
 
 ### R Scripts and Reproducibility
 
@@ -28,9 +27,9 @@ The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reo
 
 ### Supplementary Materials
 
-* Plots comparing observed vs expected digit frequencies are provided in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
+* Plots comparing observed vs expected digit frequencies are available in the *plots* folder. The code that generates the plots can be found in the *plots.R* file.
 
-* A *pdf* with the tables from the poster rounded up to five digits (instead of three) can be be found in the *aux-tables.pdf* in the *aux-tables* folder. These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
+* The *aux-tables.pdf* file in the *aux-tables* folder is a contains the tables from the poster but with higher precision (numbers rounded up to five decimal places instead of three). These tables can be reproduced with the *aux-tables-bin.beta.R* and *aux-tables-mu-dir.R* files, stored in the same folder.
 
 ## Built With
 
