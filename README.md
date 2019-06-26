@@ -2,26 +2,32 @@
 
 The goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow the replicability of obtained results. Some supplemental graphs and tables are also provided.  
 
-## Prerequisites
+The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs. 
 
-To run all the R scripts provided in this reposirory and obtain the desired outputs, it is only required that two R packages are installed:
+## Instructions
+
+### Prerequisites
+
+To run all the R scripts provided in this reposirory and obtain the desired outputs it is only required that two R packages are installed:
 
 ```
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-
-The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs. 
-
-## Instructions
+The *Hmisc* package is used to export tables in TeX format and the *tidyverse* package is used to to produce graphs. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R packages.
 
 ### Data
 
-The raw data is in the *raw-data.xls* file, stored in the *data* folder. The data that is read by the R scripts is stored in the *data.txt* file in the same folder.
+The raw data is in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is read by the R scripts is *data.txt* file, stored in the same folder.
 
-### Scripts
+### R Scripts and Reproducibility
 
 We provide a self-contained R studio project. For a smooth replicability of the poster's results, the *bda-poster-warwick.Rproj* file should be run beforehand. 
+
+The *read-data.R*, *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* files are auxilliary scripts that are called within other scripts to import the data and to and provide funcions that we developed. The results in the poster can be reproduced by running the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
+
+
+### Supplementary Materials
 
 
 ## Built With
