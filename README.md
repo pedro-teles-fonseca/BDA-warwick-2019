@@ -1,12 +1,8 @@
 # "Bayesian Digit Analysis" - O'Bayes 2019 
 
-This goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow the replicability of obtained results. Some supplemental graphs and tables are also provided.  
+The goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow the replicability of obtained results. Some supplemental graphs and tables are also provided.  
 
-## Instructions
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+## Prerequisites
 
 To run all the R scripts provided in this reposirory and obtain the desired outputs, it is only required that two R packages are installed:
 
@@ -16,18 +12,22 @@ install.packages("tidyverse", dependencies = TRUE)
 ```
 
 The Hmisc is necessairy to export R tables in TeX format and the tidyverse package is only used in the plots.r script to make graphs.
+## Instructions
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ## Built With
 
-* [R](http://www.dropwizard.io/1.0.2/docs/) - Programming language and free software enviroment for statistical computing and graphics
-* [R Studio](https://maven.apache.org/) - Free and open-source integrated development environment (IDE) for R
-* [TeX Live](https://maven.apache.org/) - Free software distribution for the TeX typesetting system
-* [Texmaker](https://rometools.github.io/rome/) - Cross-platform open-source LaTeX editor
+* [R](https://www.r-project.org) - Free software environment for statistical computing and graphics.
+* [R Studio](https://www.rstudio.com) - Free and open-source integrated development environment (IDE) for R
+* [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system
+* [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform open-source LaTeX editor
 
 ## Authors and Contributors
 
-* **Pedro Fonseca** - *PhD candidate and research fellow* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
-* **Prof Rui Paulo** - *Advisor* - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
+* **Pedro Fonseca** - *PhD candidate and research fellow at [ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
+* **Prof Rui Paulo (Advisor)** - *[ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)* - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt) * - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
@@ -35,5 +35,9 @@ We would like to thank the financial support provided by:
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017
+
+## Contact
+
+pedro.teles.fonseca@outlook.com
 
 
