@@ -1,19 +1,22 @@
 # "Bayesian Digit Analysis" - O'Bayes 2019 
 
-The goal of this repository is to share the data and the code used in the "Bayesian Digit Analysis" poster (presented in the O'Bayes 2019 conference) and to allow the replicability of obtained results. Some supplemental graphs and tables are also provided.  
+This repository accompanies the "Bayesian Digit Analysis" poster, to be presented in the O'Bayes 2019 conference, taking place in the University of Warwick. Here we share the data and the code used to develop the poster, allowing the replicability of obtained results. Some supplemental materials are also provided.  
+
+## The Poster
+
+See  [poster.pdf](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf). 
 
 ## Instructions
 
 ### Prerequisites
 
-To run all the R scripts provided in this reposirory and obtain the desired outputs it is only required that two R packages are installed:
+To run all the R scripts provided in this reposirory and obtain the desired outputs it is required that two R packages are installed:
 
 ```
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-
-The *Hmisc* package is necessairy to export R tables in TeX format, and the *tidyverse* package is only used in the *plots.R* script to produce graphs. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R package.
+The *Hmisc* package is necessairy to export R tables in TeX format, and the *tidyverse* package is only used in the *plots.R* script to produce graphs, which are supplemantal material. Nevertheless, it is possible to reproduce all the results of the poster in the R console using only the base R package.
 
 ### Data
 
