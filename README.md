@@ -6,7 +6,7 @@ This repository accompanies the "Bayesian Digit Analysis" [poster](https://githu
 
 ### Prerequisites
 
-To run all the R scripts provided in this reposirory and obtain the desired outputs it is required that two R packages are installed:
+To run all the R scripts provided in this repository and obtain the desired outputs it is required that two R packages are installed:
 
 ```
 install.packages("Hmisc", dependencies = TRUE)
@@ -16,18 +16,18 @@ Nevertheless, it is possible to reproduce all the results in the poster in the R
 
 ### Data
 
-The raw data can be found in the *raw-data.xls* file, stored in the *data* folder. The reorganized version of the dataset that is imported by the R scripts is the *data.txt* file, stored in the same folder. 
+The raw data can be found in the *raw-data.xls* file, stored in the *data* folder. The reorganised version of the dataset that is imported by the R scripts is the *data.txt* file, stored in the same folder. 
 
 ### Reproducibility
 
-Using an Rstudio project, we provide a self-contained enviroment to reproduce all the results in the poster. In order to direct R to the correct working directory, the *bda-poster-warwick.Rproj* file should be run beforehand. After that, all R scripts should run smoothly.
+Using an Rstudio project, we provide a self-contained environment to reproduce all the results in the poster. In order to direct R to the correct working directory, the *bda-poster-warwick.Rproj* file should be run beforehand. After that, all R scripts should run smoothly.
 
 ### R Scripts
 
-* *read-data.R* is an auxilliary script that is called within other scripts to import the data. 
+* *read-data.R* is an auxiliary script that is called within other scripts to import the data. 
 
-* *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* are auxilliary scripts that
-contain functions that we developed specifically for Bayesian digit analysis. These scripts are called within other scripts if necessairy. 
+* *auxiliary-functions.R*, *bin-beta-model-functions.R* and *mu-dir-model-functions.R* are auxiliary scripts that
+contain functions that we developed specifically for Bayesian digit analysis. These scripts are called within other scripts if necessary. 
 
 * The tables in the poster can be reproduced with the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
 
@@ -57,11 +57,14 @@ This project was partially funded by:
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national MCTES funds)
 
-We would like the aforementioned institutions for the finantial support they provided.
+We would like the aforementioned institutions for the financial support they provided.
 
 ## Contact
 
 pedro.teles.fonseca@outlook.com
+
+
+
 
 
 
