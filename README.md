@@ -12,7 +12,7 @@ To run all the R scripts provided in this reposirory and obtain the desired outp
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-Nevertheless, it is possible to reproduce all the results in the poster with the R console using only the base R package, since the *Hmisc* package is used only to export R tables in TeX format and the *tidyverse* package is only used in the *plots.R* script to produce graphs, which are supplementary material. 
+Nevertheless, it is possible to reproduce all the results in the poster in the R console using only the base R package, since the *Hmisc* package is only used to export R tables in TeX format and the *tidyverse* package is only used in the *plots.R* script to produce graphs, which are supplementary material. 
 
 ### Data
 
