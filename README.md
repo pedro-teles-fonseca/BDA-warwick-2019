@@ -27,9 +27,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors and Contributors
 
-* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) - pedro.teles.fonseca@outlook.com
+* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca) 
 
-* **Advisor: Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui) - rui@iseg.ulisboa.pt
+* **Advisor: Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
@@ -37,6 +37,10 @@ We would like to thank to the following institutions for the finantial support t
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017
+
+## Contact
+
+For additional information contact pedro.teles.fonseca@outlook.com
 
 
 
