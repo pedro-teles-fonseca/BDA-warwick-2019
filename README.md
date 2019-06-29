@@ -57,7 +57,7 @@ This project was partially funded by:
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national MCTES funds)
 
-We would like the aforementioned institutions for the financial support they provided.
+We would like to thank the aforementioned institutions for the financial support they provided.
 
 ## Contact
 
