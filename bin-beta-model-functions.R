@@ -1,5 +1,6 @@
 
-# Binomial-Beta Model
+# Functions for the Binomial-Beta Model -- BL1 or BL2
+
 
 bf_bi_beta <- function(data, a = rep(1, 9), b = rep(1, 9), log10 = TRUE, pi_0 = 0.5, bl = 1, bf.round = 2, probs.round = 3){
   
