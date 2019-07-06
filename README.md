@@ -38,7 +38,7 @@ Using an Rstudio project, we provide a self-contained environment to reproduce a
 
 ## Built With
 
-* [R](https://www.r-project.org) - Free software environment for statistical computing and graphics.
+* [R](https://www.r-project.org) - Free programming language and software environment for statistical computing and graphics.
 * [R Studio](https://www.rstudio.com) - Free and open-source IDE for R.
 * [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system.
 * [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform and open-source LaTeX editor.
