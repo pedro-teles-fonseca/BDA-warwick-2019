@@ -52,9 +52,9 @@ This project was partially funded by:
 
 ## Contributors and Contacts
 
-* **Author**: Pedro Fonseca ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - pedro.teles.fonseca@outlook.com 
+* Author: Pedro Fonseca ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - pedro.teles.fonseca@outlook.com 
 
-* **Advisor**: Rui Paulo ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - rui@iseg.ulisboa.pt
+* __Advisor__: Rui Paulo ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - rui@iseg.ulisboa.pt
 
 
 
