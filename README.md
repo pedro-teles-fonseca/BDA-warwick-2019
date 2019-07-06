@@ -50,6 +50,10 @@ This project was financially supported by:
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal). Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national funds from the MCTES)
 
+CEMAPRE             |  FCT
+:-------------------------:|:-------------------------:
+![](https://ibb.co/g3zrvGq)  |  ![](https://ibb.co/hYRhwbM)
+
 ## Contributors and Contacts
 
 * Author: Pedro Fonseca ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - pedro.teles.fonseca@outlook.com 
