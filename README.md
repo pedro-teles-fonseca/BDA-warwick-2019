@@ -46,13 +46,10 @@ Using an Rstudio project, we provide a self-contained environment to reproduce a
 ## Authors and Contributors
 
 * **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) 
-  * GitHub: [pedro-teles-fonseca](https://github.com/pedro-teles-fonseca)
   * :email: pedro.teles.fonseca@outlook.com 
-  * LinkedIn https://www.linkedin.com/in/pedro-teles-fonseca/
 
 * **Advisor: Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt))
 * :email: rui@iseg.ulisboa.pt
-* Website [Rui Paulo](https://www.iseg.ulisboa.pt/aquila/homepage/rui)
 
 ## Acknowledgments
 
