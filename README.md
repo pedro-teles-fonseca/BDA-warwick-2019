@@ -12,7 +12,7 @@ To run all the R scripts provided in this repository and obtain the desired outp
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-Nevertheless, it is possible to reproduce all the results in the poster in the R console using only the base R package, since the *Hmisc* package is only used to export R tables in TeX format and the *tidyverse* package is only used to produce graphs, which are supplementary material. 
+Nevertheless, it is possible to reproduce all the results in the poster in the R console using only the base R package, since the *Hmisc* package is only used to export R tables in TeX format and the *tidyverse* package is only used to produce plots, which are supplementary material. 
 
 ### Data
 
@@ -26,7 +26,7 @@ Using an Rstudio project, we provide a self-contained environment to reproduce a
 
 * *read-data.R* is an auxiliary script that is called within other scripts to import the data. 
 
-* *auxiliary-functions.R* is an auxiliary script with functions that we developed specifically for Bayesian digit analysis. This script is called within other scripts if necessary. 
+* *auxiliary-functions.R* is an auxiliary script with several functions that we developed specifically for Bayesian digit analysis. This script is called within other scripts if necessary. 
 
 * The tables in the poster can be reproduced with the *poster-tables-bin-beta.R* and *poster-tables-mu-dir.R* scripts.
 
