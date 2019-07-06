@@ -43,12 +43,6 @@ Using an Rstudio project, we provide a self-contained environment to reproduce a
 * [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system.
 * [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform and open-source LaTeX editor.
 
-## Authors and Contributors
-
-* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - :email: pedro.teles.fonseca@outlook.com 
-  
-* **Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - :email: rui@iseg.ulisboa.pt
-
 ## Acknowledgments
 
 This project was partially funded by:
@@ -56,7 +50,16 @@ This project was partially funded by:
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national MCTES funds)
 
-We would like to thank the aforementioned institutions for the financial support they provided.
+## Contacts
+
+### Author
+
+* **Pedro Fonseca** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - :email: pedro.teles.fonseca@outlook.com 
+
+### Advisor
+
+* **Rui Paulo** ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/) and [CEMAPRE](https://cemapre.iseg.ulisboa.pt)) - :email: rui@iseg.ulisboa.pt
+
 
 
 
