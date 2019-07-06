@@ -45,7 +45,7 @@ Using an Rstudio project, we provide a self-contained environment to reproduce a
 
 ## Acknowledgments
 
-This project was partially funded by:
+This project was financially supported by:
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal) - Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national MCTES funds)
