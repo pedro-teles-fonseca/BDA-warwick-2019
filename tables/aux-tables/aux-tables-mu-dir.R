@@ -6,7 +6,6 @@ library(Hmisc)
 
 source("read-data.r")
 source("auxiliary-functions.r")
-source("mu-dir-model-functions.r")
 
 results_uniform_prior <- rbind(
   
