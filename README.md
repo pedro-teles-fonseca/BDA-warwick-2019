@@ -6,7 +6,7 @@ This repository accompanies the "Bayesian Digit Analysis" [poster](https://githu
 
 ### Prerequisites
 
-To run all the R scripts provided in this repository and obtain the desired outputs it is required that two R packages are installed:
+To run the R scripts provided in this repository and obtain the desired outputs it is required that two R packages are installed:
 
 ```
 install.packages("Hmisc", dependencies = TRUE)
