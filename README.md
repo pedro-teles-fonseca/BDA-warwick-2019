@@ -12,7 +12,7 @@ To run the R scripts provided in this repository it is required that two R packa
 install.packages("Hmisc", dependencies = TRUE)
 install.packages("tidyverse", dependencies = TRUE) 
 ```
-Nevertheless, it is possible to reproduce all the results in the poster in the R console using only the base R package, since the *Hmisc* package is only used to export R tables in TeX format and the *tidyverse* package is only used to produce plots, which are supplementary material. 
+Nevertheless, it is possible to reproduce all the results in the poster using only the base R package, since the *Hmisc* package is only used to export R tables in TeX format and the *tidyverse* package is only used to produce plots, which are supplementary material. 
 
 ### Data
 
