@@ -1,5 +1,5 @@
 
-# Binomial -- Beta
+# Binomial -- Beta Model
 
 rm(list = ls())
 

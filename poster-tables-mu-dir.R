@@ -152,5 +152,3 @@ latex(poster.results.final, file = "tables/mu-dir.tex")
 
 
 
-
-
