@@ -1,10 +1,10 @@
 
 rm(list = ls())
-
+ 
 library(tidyverse)
 
 source("auxiliary-functions.R")
-source("read-data.R")
+source("read-data.R") 
 
 for(n in c(names(data), "Pooled.sample")){
   assign(
@@ -104,7 +104,4 @@ ggplot(data = data_bl2,
   theme_bw() + 
   scale_x_discrete(name ="Digit", limits=c(0:9)) 
 ggsave(plot = last_plot(), filename = "plots/bl2.png")
-
-
-
 

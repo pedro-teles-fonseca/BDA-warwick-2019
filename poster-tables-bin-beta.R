@@ -1,5 +1,5 @@
 
-# Binomial -- Beta Model
+# Poster tables: Binomial -- Beta Model
 
 rm(list = ls())
 

@@ -151,4 +151,3 @@ rownames(poster.results.final) <- c("Austria",
 latex(poster.results.final, file = "tables/mu-dir.tex")
 
 
-
