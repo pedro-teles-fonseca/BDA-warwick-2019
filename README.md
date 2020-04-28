@@ -10,7 +10,7 @@ In order to run the R scripts provided in this repository, the following R packa
 
 ```r
 library("Hmisc")
-library.packages("tidyverse") 
+library("tidyverse") 
 ```
 Nevertheless, it is possible to reproduce all the results in the poster using only the base R package, since the `Hmisc` package is only used to export R tables in TeX format and the `tidyverse` packages are only used to produce plots, which are supplementary material. 
 
