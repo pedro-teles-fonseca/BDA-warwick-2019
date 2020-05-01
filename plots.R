@@ -105,3 +105,4 @@ ggplot(data = data_bl2,
   scale_x_discrete(name ="Digit", limits=c(0:9)) 
 ggsave(plot = last_plot(), filename = "plots/bl2.png")
 
+# test
