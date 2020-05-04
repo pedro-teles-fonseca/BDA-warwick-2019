@@ -1,4 +1,4 @@
-# Bayesian Digit Analysis - O'Bayes 2019, Warwick
+# Bayesian Digit Analysis - O'Bayes 2019 (Warwick, UK)
 
 This repository accompanies the [Bayesian Digit Analysis](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf)  poster, presented in the [O'Bayes 2019](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/robert/0bayesconference/) conference in the University of Warwick (UK). The purpose of this repository is to share the data and the code that was used, allowing the replicability of obtained results. Some supplementary graphs and tables are also provided.  
 
