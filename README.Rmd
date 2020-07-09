@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-This repository accompanies the Bayesian Digit Analysis [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), presented in the [O'Bayes 2019](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/robert/0bayesconference/) conference in the [University of Warwick](https://warwick.ac.uk) (UK). The purpose of this repository is to share the data and the code that were used, allowing the replicability of obtained results. Some supplementary graphs and tables are also provided.  
+This repository accompanies the Bayesian Digit Analysis [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf), presented in the [O'Bayes 2019](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/robert/0bayesconference/) conference in the [University of Warwick](https://warwick.ac.uk) (UK). The purpose of this repository is to share the data and the code that were used, facilitating the replicability of obtained results. Some supplementary graphs and tables are also provided.  
 
 <a href="https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf"><img src="https://raw.githubusercontent.com/pedro-teles-fonseca/bayes-digit-analysis-warwick/master/images/poster.png" /></a>  
 
@@ -30,29 +30,29 @@ library("Hmisc")
 library("tidyverse") 
 ```
 
-Nevertheless, it is possible to reproduce all the results in the poster using only the base R package, since the `Hmisc` package is only used to export R tables in TeX format and the `tidyverse` packages are only used to produce plots, which are supplementary material. 
+It is still possible to reproduce all the results in the poster without installing any package since `Hmisc` is only used to export R tables in TeX format and `tidyverse` is only used to produce plots, which are supplementary material. 
 
 ### Data
 
-The raw data can be found in the `raw-data.xls` file, stored in the `data` folder. The reorganized version of the dataset that is imported by the R scripts is the `data.txt` file, stored in the same folder. 
+The raw data can be found in the `raw-data.xls` file, stored in the `data-raw` folder. The reorganized version of the dataset that is imported by the R scripts is the `data.txt` file, stored in the `data` folder. 
 
 ### Reproducibility
 
-Using an Rstudio project, we provide a self-contained workflow that allows for the replicability of all the results in the poster. In order to direct R to the correct working directory, the `bda-poster-warwick.Rproj` file should be run beforehand. After that, all R scripts should run smoothly.
+We provide a self-contained Rstudio workflow that allows for the replicability of all the results in the poster. In order to direct R to the correct working directory you should open `bda-poster-warwick.Rproj` first. After that, all R scripts stored in the `R` folder should run smoothly.
 
 ### R Scripts
 
 * `read-data.R` is an auxiliary script that is called within other scripts to import the data. 
 
-* `auxiliary-functions.R` is an auxiliary script with several functions that we developed specifically for Bayesian digit analysis. This script is called within other scripts if necessary. 
+* `auxiliary-functions.R` contains several functions that we developed specifically for Bayesian digit analysis. This script is called within other scripts when necessary. 
 
 * The tables in the poster can be reproduced with the `poster-tables-bin-beta.R` and `poster-tables-mu-dir.R` scripts.
 
 ### Supplementary Materials
 
-* Plots comparing observed versus expected digit frequencies can be found in the `plots` folder. The code that generates the plots can be found in the `plots.R` file.
+* Plots comparing observed versus expected digit frequencies can be found in the `plots` folder. The code that generates the plots can be found in the `plots.R` script.
 
-* Tables similar to the ones in the poster but with five decimal places instead of three can be found in the `aux-tables.pdf` file, stored in the `aux-tables` folder. These tables can be reproduced with the `aux-tables-bin.beta.R` and `aux-tables-mu-dir.R` files, stored in the same folder.
+* The `aux-tables.pdf` file in the `tables-aux` folder is a user-friendly compilation of all the tables in the poster. The code that generates the results in those tables is in `aux-tables-bin.beta.R` and `aux-tables-mu-dir.R`.
 
 ## Built With
 
@@ -61,14 +61,15 @@ Using an Rstudio project, we provide a self-contained workflow that allows for t
 * [TeX Live](https://www.tug.org/texlive/) - Free distribution of the TeX typesetting system.
 * [Texmaker](https://www.xm1math.net/texmaker/) - Cross-platform and open-source LaTeX editor.
 
-## Acknowledgments
-
-This project was financially supported by:
+## Funding
 
 * [CEMAPRE](https://cemapre.iseg.ulisboa.pt) - Center for Applied Mathematics and Economics
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal). Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national funds from the MCTES)
 
-## Contributors and Contacts
+<a href="https://cemapre.iseg.ulisboa.pt"><img src="images/cemapre.png" width="400">
+<a href="https://www.fct.pt/index.phtml.en"><img src="images/fct.png" width="200">
+
+## Contacts
 
 * Author: Pedro Fonseca ([ISEG](https://www.iseg.ulisboa.pt/aquila/instituicao/ISEG/)) - <pedro.teles.fonseca@outlook.com> 
 
