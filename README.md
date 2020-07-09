@@ -12,7 +12,7 @@ repository is to share the data and the code that was used, allowing the
 replicability of obtained results. Some supplementary graphs and tables
 are also provided.
 
-<a href="https://github.com/pedro-teles-fonseca/bayes-digit-analysis-warwick/blob/master/poster.pdf"><img src="https://raw.githubusercontent.com/pedro-teles-fonseca/bayes-digit-analysis-warwick/master/poster.tex" width="630" height="252"/></a>
+![Poster](images/poster.png)
 
 ## Instructions
 
