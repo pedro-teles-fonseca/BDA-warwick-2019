@@ -42,11 +42,11 @@ folder.
 
 ### Reproducibility
 
-We provide a self-contained Rstudio workflow that allows for the
-replicability of all the results in the poster. In order to direct R to
-the correct working directory you should open `bda-poster-warwick.Rproj`
-first. After that, all R scripts stored in the `R` folder should run
-smoothly.
+We provide a self-contained Rstudio workflow that facilitates the
+replicability of all the results in the poster. Open
+`bda-poster-warwick.Rproj` first in order to direct R to the correct
+working directory. After that, all the R scripts stored in the `R`
+folder should run smoothly.
 
 ### R Scripts
 
@@ -57,14 +57,14 @@ smoothly.
     specifically for Bayesian digit analysis. This script is called
     within other scripts when necessary.
 
-  - The tables in the poster can be reproduced with the
-    `poster-tables-bin-beta.R` and `poster-tables-mu-dir.R` scripts.
+  - The tables in the poster can be reproduced with
+    `poster-tables-mu-dir.R` and `poster-tables-bin-beta.R`.
 
 ### Supplementary Materials
 
   - Plots comparing observed versus expected digit frequencies can be
     found in the `plots` folder. The code that generates the plots can
-    be found in the `plots.R` script.
+    be found in `plots.R`.
 
   - The `tables-aux` folder contains the auxiliary tables
     `bin-beta-aux-austria.tex`, `bin-beta-aux-belgium.tex`,
