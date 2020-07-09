@@ -9,10 +9,10 @@ This repository accompanies the Bayesian Digit Analysis
 [poster](https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf),
 presented in the
 [O’Bayes 2019](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/robert/0bayesconference/)
-conference in the University of Warwick (UK). The purpose of this
-repository is to share the data and the code that was used, allowing the
-replicability of obtained results. Some supplementary graphs and tables
-are also provided.
+conference in the [University of Warwick](https://warwick.ac.uk) (UK).
+The purpose of this repository is to share the data and the code that
+were used, allowing the replicability of obtained results. Some
+supplementary graphs and tables are also provided.
 
 <a href="https://github.com/pedro-teles-fonseca/bda-poster-warwick/blob/master/poster.pdf"><img src="https://raw.githubusercontent.com/pedro-teles-fonseca/bayes-digit-analysis-warwick/master/images/poster.png" /></a>
 
