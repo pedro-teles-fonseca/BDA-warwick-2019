@@ -67,7 +67,7 @@ We provide a self-contained Rstudio workflow that allows for the replicability o
 * [FCT](https://www.fct.pt/index.phtml.en) - Foundation for Science and Technology (Portugal). Research grant reference: SFRH/BD/129918/2017 (funded by the European Social Fund and by national funds from the MCTES)
 
 <a href="https://cemapre.iseg.ulisboa.pt"><img src="images/cemapre.png" width="400">
-<a href="https://www.fct.pt/index.phtml.en"><img src="images/fct.png" width="200">
+<a href="https://www.fct.pt/index.phtml.en"><img src="images/fct.png" width="190">
 
 ## Contacts
 

@@ -92,7 +92,7 @@ smoothly.
     national funds from the MCTES)
 
 <a href="https://cemapre.iseg.ulisboa.pt"><img src="images/cemapre.png" width="400">
-<a href="https://www.fct.pt/index.phtml.en"><img src="images/fct.png" width="200">
+<a href="https://www.fct.pt/index.phtml.en"><img src="images/fct.png" width="190">
 
 ## Contacts
 
