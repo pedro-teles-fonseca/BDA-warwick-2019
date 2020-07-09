@@ -1,0 +1,208 @@
+\documentclass[12pt,a4paper,draft]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array, multirow}
+\usepackage{multicol}
+\usepackage{bm}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Pedro Fonseca}
+\begin{document}
+
+\section{Multinomial $\land$ Dirichlet Model and $\chi^2$ Test } 
+
+\subsection{BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{{\multirow{2}{*}{Country}}} &  \multicolumn{1}{c|}{{\multirow{2}{*}{$N$}}} & \multicolumn{3}{c|}{$P(H_0| \bm{x})$} &  \multicolumn{1}{c|}{{\multirow{2}{*}{${\underline{P}}{(H_0|\bm{x})}$}}} & \multicolumn{1}{c|}{{\multirow{2}{*}{${p_{\text{{obs}}}}$}}}\tabularnewline
+ \cline{3-5}  
+  &  & \multicolumn{1}{c|}{$\bm{\alpha} =\bm{1}$}  &  \multicolumn{1}{c|}{$\bm{\alpha} =\bm{\theta_0}$}  &  \multicolumn{1}{c|}{$\bm{\alpha}=22 \, \bm{\theta_0}$}  &  & \\
+\hline
+
+Austria&$ 619$&$0.001$&$0.988$&$0.000$&$0.000$&$0.000$\tabularnewline
+Belgium&$ 604$&$0.016$&$1.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+Finland&$ 605$&$0.919$&$1.000$&$0.200$&$0.000$&$0.000$\tabularnewline
+France&$ 600$&$0.039$&$1.000$&$0.001$&$0.000$&$0.000$\tabularnewline
+Germany&$ 612$&$0.942$&$1.000$&$0.113$&$0.002$&$0.000$\tabularnewline
+Greece&$ 629$&$0.885$&$1.000$&$0.067$&$0.002$&$0.000$\tabularnewline
+Ireland&$ 616$&$0.004$&$0.997$&$0.000$&$0.000$&$0.000$\tabularnewline
+Italy&$ 625$&$0.945$&$1.000$&$0.110$&$0.002$&$0.000$\tabularnewline
+Luxembourg&$ 602$&$0.000$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+Netherlands&$ 596$&$1.000$&$1.000$&$0.986$&$0.105$&$0.009$\tabularnewline
+Portugal&$ 617$&$0.000$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+Spain&$ 535$&$0.808$&$1.000$&$0.018$&$0.002$&$0.000$\tabularnewline
+Pooled.sample&$7260$&$0.999$&$1.000$&$0.912$&$0.000$&$0.000$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\subsection{BL2}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{{\multirow{2}{*}{Country}}} &  \multicolumn{1}{c|}{{\multirow{2}{*}{$N$}}} & \multicolumn{3}{c|}{$P(H_0| \bm{x})$} &  \multicolumn{1}{c|}{{\multirow{2}{*}{${\underline{P}}{(H_0|\bm{x})}$}}} & \multicolumn{1}{c|}{{\multirow{2}{*}{${p_{\text{{obs}}}}$}}}\tabularnewline
+ \cline{3-5}  
+  &  & \multicolumn{1}{c|}{$\bm{\alpha} =\bm{1}$}  &  \multicolumn{1}{c|}{$\bm{\alpha} =\bm{\theta_0}$}  &  \multicolumn{1}{c|}{$\bm{\alpha}=12 \, \bm{\theta_0}$}  &  & \\
+\hline
+
+Austria&$ 614$&$1$&$1$&$1.000$&$0.357$&$0.082$\tabularnewline
+Belgium&$ 604$&$1$&$1$&$1.000$&$0.481$&$0.236$\tabularnewline
+Finland&$ 605$&$1$&$1$&$1.000$&$0.331$&$0.068$\tabularnewline
+France&$ 600$&$1$&$1$&$0.999$&$0.069$&$0.005$\tabularnewline
+Germany&$ 610$&$1$&$1$&$1.000$&$0.453$&$0.175$\tabularnewline
+Greece&$ 627$&$1$&$1$&$1.000$&$0.152$&$0.016$\tabularnewline
+Ireland&$ 616$&$1$&$1$&$1.000$&$0.500$&$0.387$\tabularnewline
+Italy&$ 608$&$1$&$1$&$1.000$&$0.346$&$0.075$\tabularnewline
+Luxembourg&$ 602$&$1$&$1$&$0.999$&$0.089$&$0.007$\tabularnewline
+Netherlands&$ 596$&$1$&$1$&$1.000$&$0.313$&$0.060$\tabularnewline
+Portugal&$ 617$&$1$&$1$&$1.000$&$0.461$&$0.189$\tabularnewline
+Spain&$ 530$&$1$&$1$&$1.000$&$0.500$&$0.855$\tabularnewline
+Pooled.sample&$7229$&$1$&$1$&$1.000$&$0.317$&$0.061$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\section{Binomial $\land$ Beta Model Results}
+
+\subsection{Austria BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Digit}} & \multicolumn{3}{c|}{$P{(H_0|{x})}$} &  \multicolumn{1}{c|}{\multirow{3}{*}{${\underline{P}}{(H_0|{x})}$}} & \multicolumn{1}{c|}{\multirow{3}{*}{${p_{\text{\textbf{obs}}}}$}} \tabularnewline
+\cline{2-4}
+&\multicolumn{1}{c|}{$a=1$}&\multicolumn{1}{c|}{$a = \theta_0$}&\multicolumn{1}{c|}{$a = 22 \, \theta_0$}& & \\
+&\multicolumn{1}{c|}{$b=1$}&\multicolumn{1}{c|}{$b = 1-\theta_0$}&\multicolumn{1}{c|}{$b = 22-22 \, \theta_0$}& &\\
+\hline
+
+1&$0.542$&$0.618$&$0.232$&$0.170$&$0.019$\tabularnewline
+2&$0.951$&$0.966$&$0.813$&$0.500$&$0.493$\tabularnewline
+3&$0.954$&$0.962$&$0.782$&$0.500$&$0.406$\tabularnewline
+4&$0.194$&$0.290$&$0.059$&$0.018$&$0.001$\tabularnewline
+5&$0.016$&$0.030$&$0.005$&$0.000$&$0.000$\tabularnewline
+6&$0.973$&$0.978$&$0.844$&$0.500$&$0.740$\tabularnewline
+7&$0.001$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+8&$0.947$&$0.941$&$0.647$&$0.462$&$0.191$\tabularnewline
+9&$0.968$&$0.976$&$0.812$&$0.500$&$0.422$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\subsection{Belgium BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Digit}} & \multicolumn{3}{c|}{$P{(H_0|{x})}$} &  \multicolumn{1}{c|}{\multirow{3}{*}{${\underline{P}}{(H_0|{x})}$}} & \multicolumn{1}{c|}{\multirow{3}{*}{${p_{\text{\textbf{obs}}}}$}} \tabularnewline
+\cline{2-4}
+&\multicolumn{1}{c|}{$a=1$}&\multicolumn{1}{c|}{$a = \theta_0$}&\multicolumn{1}{c|}{$a = 22 \, \theta_0$}& & \\
+&\multicolumn{1}{c|}{$b=1$}&\multicolumn{1}{c|}{$b = 1-\theta_0$}&\multicolumn{1}{c|}{$b = 22-22 \, \theta_0$}& &\\
+\hline
+
+1&$0.003$&$0.003$&$0.001$&$0.000$&$0.000$\tabularnewline
+2&$0.028$&$0.047$&$0.009$&$0.000$&$0.000$\tabularnewline
+3&$0.008$&$0.014$&$0.003$&$0.000$&$0.000$\tabularnewline
+4&$0.963$&$0.967$&$0.799$&$0.500$&$0.489$\tabularnewline
+5&$0.940$&$0.941$&$0.674$&$0.471$&$0.210$\tabularnewline
+6&$0.960$&$0.961$&$0.749$&$0.499$&$0.334$\tabularnewline
+7&$0.977$&$0.980$&$0.850$&$0.500$&$0.934$\tabularnewline
+8&$0.957$&$0.969$&$0.777$&$0.496$&$0.301$\tabularnewline
+9&$0.920$&$0.903$&$0.515$&$0.401$&$0.113$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\subsection{Ireland BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Digit}} & \multicolumn{3}{c|}{$P{(H_0|{x})}$} &  \multicolumn{1}{c|}{\multirow{3}{*}{${\underline{P}}{(H_0|{x})}$}} & \multicolumn{1}{c|}{\multirow{3}{*}{${p_{\text{\textbf{obs}}}}$}} \tabularnewline
+\cline{2-4}
+&\multicolumn{1}{c|}{$a=1$}&\multicolumn{1}{c|}{$a = \theta_0$}&\multicolumn{1}{c|}{$a = 22 \, \theta_0$}& & \\
+&\multicolumn{1}{c|}{$b=1$}&\multicolumn{1}{c|}{$b = 1-\theta_0$}&\multicolumn{1}{c|}{$b = 22-22 \, \theta_0$}& &\\
+\hline
+
+1&$0.894$&$0.930$&$0.696$&$0.460$&$0.186$\tabularnewline
+2&$0.957$&$0.967$&$0.821$&$0.500$&$0.599$\tabularnewline
+3&$0.772$&$0.782$&$0.355$&$0.275$&$0.045$\tabularnewline
+4&$0.015$&$0.028$&$0.005$&$0.000$&$0.000$\tabularnewline
+5&$0.453$&$0.401$&$0.090$&$0.111$&$0.010$\tabularnewline
+6&$0.055$&$0.097$&$0.015$&$0.000$&$0.000$\tabularnewline
+7&$0.948$&$0.945$&$0.672$&$0.472$&$0.213$\tabularnewline
+8&$0.872$&$0.843$&$0.393$&$0.330$&$0.067$\tabularnewline
+9&$0.802$&$0.743$&$0.257$&$0.256$&$0.039$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\subsection{Luxembourg BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Digit}} & \multicolumn{3}{c|}{$P{(H_0|{x})}$} &  \multicolumn{1}{c|}{\multirow{3}{*}{${\underline{P}}{(H_0|{x})}$}} & \multicolumn{1}{c|}{\multirow{3}{*}{${p_{\text{\textbf{obs}}}}$}} \tabularnewline
+\cline{2-4}
+&\multicolumn{1}{c|}{$a=1$}&\multicolumn{1}{c|}{$a = \theta_0$}&\multicolumn{1}{c|}{$a = 22 \, \theta_0$}& & \\
+&\multicolumn{1}{c|}{$b=1$}&\multicolumn{1}{c|}{$b = 1-\theta_0$}&\multicolumn{1}{c|}{$b = 22-22 \, \theta_0$}& &\\
+\hline
+
+1&$0.000$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+2&$0.046$&$0.048$&$0.010$&$0.018$&$0.001$\tabularnewline
+3&$0.921$&$0.930$&$0.662$&$0.460$&$0.187$\tabularnewline
+4&$0.966$&$0.974$&$0.834$&$0.500$&$0.663$\tabularnewline
+5&$0.000$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+6&$0.966$&$0.974$&$0.818$&$0.500$&$0.494$\tabularnewline
+7&$0.955$&$0.954$&$0.708$&$0.489$&$0.264$\tabularnewline
+8&$0.894$&$0.873$&$0.450$&$0.364$&$0.086$\tabularnewline
+9&$0.977$&$0.978$&$0.830$&$0.500$&$0.690$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\subsection{Portugal BL1}
+
+\begin{table}[H] 
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+
+\hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Digit}} & \multicolumn{3}{c|}{$P{(H_0|{x})}$} &  \multicolumn{1}{c|}{\multirow{3}{*}{${\underline{P}}{(H_0|{x})}$}} & \multicolumn{1}{c|}{\multirow{3}{*}{${p_{\text{\textbf{obs}}}}$}} \tabularnewline
+\cline{2-4}
+&\multicolumn{1}{c|}{$a=1$}&\multicolumn{1}{c|}{$a = \theta_0$}&\multicolumn{1}{c|}{$a = 22 \, \theta_0$}& & \\
+&\multicolumn{1}{c|}{$b=1$}&\multicolumn{1}{c|}{$b = 1-\theta_0$}&\multicolumn{1}{c|}{$b = 22-22 \, \theta_0$}& &\\
+\hline
+
+1&$0.000$&$0.000$&$0.000$&$0.000$&$0.000$\tabularnewline
+2&$0.001$&$0.001$&$0.000$&$0.000$&$0.000$\tabularnewline
+3&$0.964$&$0.971$&$0.828$&$0.500$&$0.662$\tabularnewline
+4&$0.001$&$0.001$&$0.000$&$0.000$&$0.000$\tabularnewline
+5&$0.972$&$0.976$&$0.834$&$0.500$&$0.726$\tabularnewline
+6&$0.974$&$0.979$&$0.848$&$0.500$&$0.848$\tabularnewline
+7&$0.881$&$0.862$&$0.435$&$0.349$&$0.077$\tabularnewline
+8&$0.972$&$0.978$&$0.834$&$0.500$&$0.591$\tabularnewline
+9&$0.979$&$0.982$&$0.853$&$0.500$&$0.959$\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}
+
+\end{document}
